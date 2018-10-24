@@ -12,7 +12,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<failsafe.rerunFailingTestsCount>2</failsafe.rerunFailingTestsCount>
+        <surefire.rerunFailingTestsCount>2</surefire.rerunFailingTestsCount>
 	</properties>
+	
 
 	<dependencies>
 
@@ -78,9 +81,8 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
-
-
-
+		
+	
 
 	</dependencies>
 </project>
