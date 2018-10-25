@@ -73,7 +73,7 @@ public class TaggedHooksStepDefinition {
 
 	@Then("^this is the third step$")
 	public void this_is_the_third_step() throws Throwable {
-		System.out.println("3rd step");
+		System.out.println("3rd step");//
 	}
 	
 	
